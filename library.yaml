@@ -35,6 +35,9 @@ library:
     - name: java-springboot
       description: Best practices for developing applications with Spring Boot - project setup, DI, configuration, REST, testing, security
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-springboot/SKILL.md
+    - name: kotlin-springboot
+      description: Best practices for developing applications with Spring Boot and Kotlin - idiomatic Kotlin patterns, DI, configuration, REST, testing
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/kotlin-springboot/SKILL.md
     - name: pdf
       description: Read, extract, merge, split, create, watermark, encrypt, OCR, and fill PDF files using Python libraries and CLI tools
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/pdf/SKILL.md
