@@ -11,6 +11,9 @@ default_dirs:
 
 library:
   skills:
+    - name: context7-cli
+      description: Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/context7-cli/SKILL.md
     - name: find-skills
       description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", or express interest in extending capabilities
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/find-skills/SKILL.md
