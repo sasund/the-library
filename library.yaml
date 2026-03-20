@@ -32,5 +32,8 @@ library:
     - name: java-microservices
       description: Build microservices with Spring Cloud, service mesh, event-driven architecture, and resilience patterns
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-microservices/SKILL.md
+    - name: java-springboot
+      description: Best practices for developing applications with Spring Boot - project setup, DI, configuration, REST, testing, security
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-springboot/SKILL.md
   agents: []
   prompts: []
