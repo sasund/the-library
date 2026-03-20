@@ -17,5 +17,8 @@ library:
     - name: find-skills
       description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", or express interest in extending capabilities
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/find-skills/SKILL.md
+    - name: java-coding-standards
+      description: Java coding standards for Spring Boot services - naming, immutability, Optional usage, streams, exceptions, generics, and project layout
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-coding-standards/SKILL.md
   agents: []
   prompts: []
