@@ -23,5 +23,8 @@ library:
     - name: java-docs
       description: Ensure Java types are documented with Javadoc comments following best practices for documentation
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-docs/SKILL.md
+    - name: java-junit
+      description: Best practices for JUnit 5 unit testing, including data-driven and parameterized tests
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-junit/SKILL.md
   agents: []
   prompts: []
