@@ -29,5 +29,8 @@ library:
     - name: java-maven
       description: Master Apache Maven - POM configuration, plugins, lifecycle, dependency management
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-maven/SKILL.md
+    - name: java-microservices
+      description: Build microservices with Spring Cloud, service mesh, event-driven architecture, and resilience patterns
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-microservices/SKILL.md
   agents: []
   prompts: []
