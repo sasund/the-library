@@ -20,5 +20,8 @@ library:
     - name: java-coding-standards
       description: Java coding standards for Spring Boot services - naming, immutability, Optional usage, streams, exceptions, generics, and project layout
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-coding-standards/SKILL.md
+    - name: java-docs
+      description: Ensure Java types are documented with Javadoc comments following best practices for documentation
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-docs/SKILL.md
   agents: []
   prompts: []
