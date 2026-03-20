@@ -35,5 +35,8 @@ library:
     - name: java-springboot
       description: Best practices for developing applications with Spring Boot - project setup, DI, configuration, REST, testing, security
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-springboot/SKILL.md
+    - name: skill-creator
+      description: Create new skills, modify and improve existing skills, and measure skill performance with evals and benchmarks
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/skill-creator/SKILL.md
   agents: []
   prompts: []
