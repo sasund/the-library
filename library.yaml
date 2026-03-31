@@ -14,6 +14,9 @@ library:
     - name: context7-cli
       description: Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/context7-cli/SKILL.md
+    - name: boris
+      description: 72 Claude Code workflow tips from Boris Cherny (creator of Claude Code) - parallel work, plan mode, CLAUDE.md, skills, subagents, hooks, MCP, verification, and more
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/boris/SKILL.md
     - name: find-skills
       description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", or express interest in extending capabilities
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/find-skills/SKILL.md
@@ -78,4 +81,16 @@ library:
     - name: verify-app
       description: End-to-end verification agent that tests the app is working correctly after changes - build, tests, lint, smoke tests, regression check
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/verify-app.md
-  prompts: []
+  prompts:
+    - name: babysit
+      description: Babysit open PRs - auto-fix CI failures and address incoming review comments using worktree agents
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/babysit.md
+    - name: commit-push-pr
+      description: Commit staged changes, push to remote, and open a pull request with a conventional commit message
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/commit-push-pr.md
+    - name: pr-pruner
+      description: Close stale and no-longer-necessary PRs - identifies abandoned or superseded PRs and closes them with a comment
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/pr-pruner.md
+    - name: techdebt
+      description: Find and kill duplicated code - extracts shared functions, removes redundant utilities, consolidates inconsistent implementations
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/techdebt.md
