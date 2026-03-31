@@ -20,6 +20,9 @@ library:
     - name: grill-me
       description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree
       source: https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md
+    - name: improve-codebase-architecture
+      description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules
+      source: https://github.com/mattpocock/skills/blob/main/improve-codebase-architecture/SKILL.md
     - name: java-coding-standards
       description: Java coding standards for Spring Boot services - naming, immutability, Optional usage, streams, exceptions, generics, and project layout
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/java-coding-standards/SKILL.md
