@@ -20,6 +20,9 @@ library:
     - name: branch
       description: Create and checkout a new git branch using conventional naming - use when starting work on a feature, bug fix, or task
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/branch/SKILL.md
+    - name: hookify-writing-rules
+      description: Guidance on hookify rule syntax, patterns, event types, and file format for creating hooks that prevent unwanted Claude behaviors
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/skills/hookify-writing-rules/SKILL.md
     - name: find-skills
       description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", or express interest in extending capabilities
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/find-skills/SKILL.md
@@ -75,6 +78,27 @@ library:
     - name: build-validator
       description: Validates build and CI checks pass after changes - runs build, tests, lint, and type checks with pass/fail report. Use before opening a PR.
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/build-validator.md
+    - name: code-explorer
+      description: Deeply analyzes codebase features by tracing execution paths, mapping architecture layers, and documenting dependencies to inform new development
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/code-explorer.md
+    - name: code-reviewer
+      description: Reviews code for bugs, security vulnerabilities, and project convention adherence using confidence-based filtering to report only high-priority issues
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/code-reviewer.md
+    - name: comment-analyzer
+      description: Analyzes code comments for accuracy, completeness, and long-term maintainability - flags comment rot before it becomes technical debt
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/comment-analyzer.md
+    - name: conversation-analyzer
+      description: Analyzes conversation transcripts to find Claude behaviors worth preventing with hooks - used by /hookify to identify patterns
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/conversation-analyzer.md
+    - name: pr-test-analyzer
+      description: Reviews pull requests for test coverage quality and completeness - identifies critical gaps and evaluates test quality
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/pr-test-analyzer.md
+    - name: silent-failure-hunter
+      description: Reviews code changes for silent failures, inadequate error handling, and inappropriate fallback behavior - zero tolerance for swallowed exceptions
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/silent-failure-hunter.md
+    - name: type-design-analyzer
+      description: Expert analysis of type design - rates encapsulation, invariant expression, usefulness, and enforcement with actionable improvement suggestions
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/type-design-analyzer.md
     - name: code-architect
       description: Reviews code changes for architectural quality - separation of concerns, module boundaries, coupling, scalability, and pattern consistency
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/code-architect.md
@@ -91,6 +115,24 @@ library:
     - name: code-review
       description: Code review a pull request - launches parallel agents for bug detection, CLAUDE.md compliance, and inline GitHub comments
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/code-review.md
+    - name: feature-dev
+      description: Guided 7-phase feature development workflow - discovery, exploration, clarification, architecture, implementation, review, summary
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/feature-dev.md
+    - name: hookify
+      description: Create hooks to prevent unwanted Claude behaviors from conversation analysis or explicit instructions
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/hookify/hookify.md
+    - name: hookify:configure
+      description: Enable or disable existing hookify rules interactively
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/hookify/configure.md
+    - name: hookify:help
+      description: Get help with the hookify plugin - commands, rule format, event types, pattern syntax
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/hookify/help.md
+    - name: hookify:list
+      description: List all configured hookify rules with status, event type, and pattern
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/hookify/list.md
+    - name: pr-review-toolkit:review-pr
+      description: Comprehensive PR review using 6 specialized agents - comments, tests, errors, types, code quality, and simplification
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/pr-review-toolkit/review-pr.md
     - name: babysit
       description: Babysit open PRs - auto-fix CI failures and address incoming review comments using worktree agents
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/babysit.md
