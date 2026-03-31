@@ -88,6 +88,9 @@ library:
       description: End-to-end verification agent that tests the app is working correctly after changes - build, tests, lint, smoke tests, regression check
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/verify-app.md
   prompts:
+    - name: code-review
+      description: Code review a pull request - launches parallel agents for bug detection, CLAUDE.md compliance, and inline GitHub comments
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/code-review.md
     - name: babysit
       description: Babysit open PRs - auto-fix CI failures and address incoming review comments using worktree agents
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/commands/babysit.md
