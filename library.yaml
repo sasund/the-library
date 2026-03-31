@@ -63,6 +63,9 @@ library:
       description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue
       source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
   agents:
+    - name: code-simplifier
+      description: Cleans up code after Claude finishes - reviews changed code for reuse, quality, efficiency, and CLAUDE.md compliance, then fixes issues found
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/code-simplifier.md
     - name: verify-app
       description: End-to-end verification agent that tests the app is working correctly after changes - build, tests, lint, smoke tests, regression check
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/verify-app.md
