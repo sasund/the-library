@@ -11,6 +11,9 @@ default_dirs:
 
 library:
   skills:
+    - name: coverage
+      description: Evaluate test coverage for recent code and fill gaps with high-value tests - only adds tests worth having
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/coverage/SKILL.md
     - name: context7-cli
       description: Use the ctx7 CLI to fetch library documentation, manage AI coding skills, and configure Context7 MCP
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/context7-cli/SKILL.md
