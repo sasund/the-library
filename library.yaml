@@ -44,6 +44,9 @@ library:
     - name: pdf
       description: Read, extract, merge, split, create, watermark, encrypt, OCR, and fill PDF files using Python libraries and CLI tools
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/pdf/SKILL.md
+    - name: prd-to-issues
+      description: Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices
+      source: https://github.com/mattpocock/skills/blob/main/prd-to-issues/SKILL.md
     - name: playwright-cli
       description: Automates browser interactions for web testing, form filling, screenshots, and data extraction from web pages
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/playwright-cli/SKILL.md
