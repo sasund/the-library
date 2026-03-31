@@ -50,5 +50,8 @@ library:
     - name: skill-creator
       description: Create new skills, modify and improve existing skills, and measure skill performance with evals and benchmarks
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/skill-creator/SKILL.md
+    - name: write-a-prd
+      description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue
+      source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
   agents: []
   prompts: []
