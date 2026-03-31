@@ -63,9 +63,18 @@ library:
       description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue
       source: https://github.com/mattpocock/skills/blob/main/write-a-prd/SKILL.md
   agents:
+    - name: build-validator
+      description: Validates build and CI checks pass after changes - runs build, tests, lint, and type checks with pass/fail report. Use before opening a PR.
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/build-validator.md
+    - name: code-architect
+      description: Reviews code changes for architectural quality - separation of concerns, module boundaries, coupling, scalability, and pattern consistency
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/code-architect.md
     - name: code-simplifier
       description: Cleans up code after Claude finishes - reviews changed code for reuse, quality, efficiency, and CLAUDE.md compliance, then fixes issues found
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/code-simplifier.md
+    - name: oncall-guide
+      description: On-call incident response agent - triages production incidents, searches logs, traces errors, identifies root causes, and suggests rollback/hotfix/config changes
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/oncall-guide.md
     - name: verify-app
       description: End-to-end verification agent that tests the app is working correctly after changes - build, tests, lint, smoke tests, regression check
       source: https://github.com/sasund/sit-library-engineering/blob/main/.claude/agents/verify-app.md
