@@ -20,9 +20,6 @@ library:
     - name: branch
       description: Create and checkout a new git branch using conventional naming - use when starting work on a feature, bug fix, or task
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/branch/SKILL.md
-    - name: boris
-      description: 72 Claude Code workflow tips from Boris Cherny (creator of Claude Code) - parallel work, plan mode, CLAUDE.md, skills, subagents, hooks, MCP, verification, and more
-      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/boris/SKILL.md
     - name: find-skills
       description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", or express interest in extending capabilities
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/find-skills/SKILL.md
