@@ -59,6 +59,9 @@ library:
     - name: skill-creator
       description: Create new skills, modify and improve existing skills, and measure skill performance with evals and benchmarks
       source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/skill-creator/SKILL.md
+    - name: review
+      description: Review recent changes like a senior engineer - checks code quality, security, simplicity, and optional project-specific concerns from REVIEW.md
+      source: https://github.com/sasund/sit-library-engineering/blob/main/.agents/skills/review/SKILL.md
     - name: tdd
       description: Test-driven development with red-green-refactor loop
       source: https://github.com/mattpocock/skills/blob/main/tdd/SKILL.md
